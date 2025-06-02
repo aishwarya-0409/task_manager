@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Flask Web Dashboard",
+            "type": "shell",
+            "command": "python web_dashboard.py",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run CLI Example (List Tasks)",
+            "type": "shell",
+            "command": "python cli.py list",
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}
