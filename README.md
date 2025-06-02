@@ -41,4 +41,28 @@ This project is a Python-based Task Manager that provides both a command-line in
 - Shared persistent storage
 
 ---
+## WEB DASHBOARD LOOKS LIKE -
+![image](https://github.com/user-attachments/assets/5e1baf10-4602-4273-92f4-a8fec008f836)
+---
+
+## DATABASE -
+To view what data is in your SQLite database (tasks.db), you have several options:
+
+**1. Use the CLI tool**
+Run this command in your terminal to list all tasks:
+```powershell
+python cli.py list
+```
+This will print all tasks stored in the database in the terminal as shown below -
+![image](https://github.com/user-attachments/assets/7e709939-f598-46bc-8440-767da77c7b0a)
+
+**2. Use a SQLite database viewer**
+
+- Download and install DB Browser for SQLite.
+- Open the program and select tasks.db from your project folder.
+- Go to the "Browse Data" tab and select the tasks table to see all your data.
+
+Its shows as shown below -
+![image](https://github.com/user-attachments/assets/d59eee1f-f42c-4a42-bd29-3b1a7eef434c)
+
 
